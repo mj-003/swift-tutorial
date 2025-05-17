@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
+options: "2ad9656d20b13f946614fc1271749d5070159a34feba92ed7995464cf7bcea4b"
+build_start_time: [1747514644, 45826911]
+build_end_time: [1747514645, 514007091]
+inputs:
+  "/Users/m_juchiewicz/Desktop/studia/projekty/simple_chat/simple_chat/ContentView.swift": [1747514643, 827708721]
+  "/Users/m_juchiewicz/Desktop/studia/projekty/simple_chat/simple_chat/simple_chatApp.swift": [1747509440, 940183639]

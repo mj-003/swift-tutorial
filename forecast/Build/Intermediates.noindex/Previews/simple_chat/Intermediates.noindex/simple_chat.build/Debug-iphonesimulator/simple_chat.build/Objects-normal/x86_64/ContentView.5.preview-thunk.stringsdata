@@ -1,0 +1,16 @@
+{
+  "source": "/Users/m_juchiewicz/Desktop/studia/projekty/simple_chat/Build/Intermediates.noindex/Previews/simple_chat/Intermediates.noindex/simple_chat.build/Debug-iphonesimulator/simple_chat.build/Objects-normal/x86_64/ContentView.5.preview-thunk.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Knock knock"
+      },
+      {
+        "comment": "",
+        "key": "Who is there?"
+      }
+    ]
+  },
+  "version": 1
+}

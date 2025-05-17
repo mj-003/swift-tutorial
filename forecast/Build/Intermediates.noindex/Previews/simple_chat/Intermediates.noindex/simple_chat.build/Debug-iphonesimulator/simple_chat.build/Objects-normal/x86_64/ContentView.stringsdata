@@ -1,0 +1,20 @@
+{
+  "source": "/Users/m_juchiewicz/Desktop/studia/projekty/simple_chat/simple_chat/ContentView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Forecast for the week"
+      },
+      {
+        "comment": "",
+        "key": "High: %lld"
+      },
+      {
+        "comment": "",
+        "key": "Low: %lld"
+      }
+    ]
+  },
+  "version": 1
+}

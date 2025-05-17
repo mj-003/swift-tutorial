@@ -1,0 +1,56 @@
+{
+  "_buildCommand2" : {
+    "command" : "preview"
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "00db4ad39167544c5484bde8be786495170e2d27f91e8fa9568135da1234c928"
+    }
+  ],
+  "containerPath" : "/Users/m_juchiewicz/Desktop/studia/projekty/simple_chat/simple_chat.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator16.2",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/m_juchiewicz/Desktop/studia/projekty/simple_chat/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/m_juchiewicz/Desktop/studia/projekty/simple_chat/Build/Files",
+      "derivedDataPath" : "/Users/m_juchiewicz/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/m_juchiewicz/Library/Developer/Xcode/DerivedData/simple_chat-cokxtmnqfjhxxlfvgviekjgpesxf/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/m_juchiewicz/Library/Developer/Xcode/DerivedData/simple_chat-cokxtmnqfjhxxlfvgviekjgpesxf/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/m_juchiewicz/Desktop/studia/projekty/simple_chat/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "DSTROOT" : "/Users/m_juchiewicz/Desktop/studia/projekty/simple_chat/Build/Intermediates.noindex/Previews/simple_chat/ReleaseProducts",
+          "ENABLE_PREVIEWS" : "YES",
+          "OBJROOT" : "/Users/m_juchiewicz/Desktop/studia/projekty/simple_chat/Build/Intermediates.noindex/Previews/simple_chat/Intermediates.noindex",
+          "SYMROOT" : "/Users/m_juchiewicz/Desktop/studia/projekty/simple_chat/Build/Intermediates.noindex/Previews/simple_chat/Products"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}
