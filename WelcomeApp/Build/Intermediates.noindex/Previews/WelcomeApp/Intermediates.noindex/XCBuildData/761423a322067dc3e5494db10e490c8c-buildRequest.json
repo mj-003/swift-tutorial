@@ -1,0 +1,56 @@
+{
+  "_buildCommand2" : {
+    "command" : "preview"
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "874b741037594e42e88694896d7810efde310491578b64ddf1331b21ca07df00"
+    }
+  ],
+  "containerPath" : "/Users/m_juchiewicz/Desktop/studia/projekty/swift_tutorial/WelcomeApp/WelcomeApp.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator16.2",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/m_juchiewicz/Desktop/studia/projekty/swift_tutorial/WelcomeApp/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/m_juchiewicz/Desktop/studia/projekty/swift_tutorial/WelcomeApp/Build/Files",
+      "derivedDataPath" : "/Users/m_juchiewicz/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/m_juchiewicz/Library/Developer/Xcode/DerivedData/WelcomeApp-heikxnketcsumibqhvnbavtfqfdt/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/m_juchiewicz/Library/Developer/Xcode/DerivedData/WelcomeApp-heikxnketcsumibqhvnbavtfqfdt/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/m_juchiewicz/Desktop/studia/projekty/swift_tutorial/WelcomeApp/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "DSTROOT" : "/Users/m_juchiewicz/Desktop/studia/projekty/swift_tutorial/WelcomeApp/Build/Intermediates.noindex/Previews/WelcomeApp/ReleaseProducts",
+          "ENABLE_PREVIEWS" : "YES",
+          "OBJROOT" : "/Users/m_juchiewicz/Desktop/studia/projekty/swift_tutorial/WelcomeApp/Build/Intermediates.noindex/Previews/WelcomeApp/Intermediates.noindex",
+          "SYMROOT" : "/Users/m_juchiewicz/Desktop/studia/projekty/swift_tutorial/WelcomeApp/Build/Intermediates.noindex/Previews/WelcomeApp/Products"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

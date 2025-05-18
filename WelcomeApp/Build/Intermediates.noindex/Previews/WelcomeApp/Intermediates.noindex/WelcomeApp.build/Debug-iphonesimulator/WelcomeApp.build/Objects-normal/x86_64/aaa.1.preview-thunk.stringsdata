@@ -1,0 +1,12 @@
+{
+  "source": "/Users/m_juchiewicz/Desktop/studia/projekty/swift_tutorial/WelcomeApp/Build/Intermediates.noindex/Previews/WelcomeApp/Intermediates.noindex/WelcomeApp.build/Debug-iphonesimulator/WelcomeApp.build/Objects-normal/x86_64/aaa.1.preview-thunk.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Hello, World!"
+      }
+    ]
+  },
+  "version": 1
+}

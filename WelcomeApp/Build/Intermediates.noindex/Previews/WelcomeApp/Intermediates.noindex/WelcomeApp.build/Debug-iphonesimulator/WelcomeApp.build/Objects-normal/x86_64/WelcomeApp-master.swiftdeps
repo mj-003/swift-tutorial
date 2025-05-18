@@ -1,0 +1,10 @@
+version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
+options: "cc2c58e09562bcbd796578687ddab88336e2a583c094f01ade65547ff94c2fed"
+build_start_time: [1747561590, 483707904]
+build_end_time: [1747561595, 587440967]
+inputs:
+  "/Users/m_juchiewicz/Desktop/studia/projekty/swift_tutorial/WelcomeApp/WelcomeApp/ContentView.swift": [1747560548, 122620582]
+  "/Users/m_juchiewicz/Desktop/studia/projekty/swift_tutorial/WelcomeApp/WelcomeApp/FeatureCard.swift": [1747561589, 906693458]
+  "/Users/m_juchiewicz/Desktop/studia/projekty/swift_tutorial/WelcomeApp/WelcomeApp/FeaturesPage.swift": [1747561589, 921125650]
+  "/Users/m_juchiewicz/Desktop/studia/projekty/swift_tutorial/WelcomeApp/WelcomeApp/WelcomeAppApp.swift": [1747557751, 32399415]
+  "/Users/m_juchiewicz/Desktop/studia/projekty/swift_tutorial/WelcomeApp/WelcomeApp/WelcomePage.swift": [1747558649, 275696754]

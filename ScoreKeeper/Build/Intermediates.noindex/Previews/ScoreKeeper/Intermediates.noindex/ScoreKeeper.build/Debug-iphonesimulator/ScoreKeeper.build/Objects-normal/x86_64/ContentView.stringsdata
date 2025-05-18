@@ -1,0 +1,20 @@
+{
+  "source": "/Users/m_juchiewicz/Desktop/studia/projekty/swift_tutorial/ScoreKeeper/ScoreKeeper/ContentView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Name"
+      },
+      {
+        "comment": "",
+        "key": "%lld"
+      },
+      {
+        "comment": "",
+        "key": "Add name"
+      }
+    ]
+  },
+  "version": 1
+}

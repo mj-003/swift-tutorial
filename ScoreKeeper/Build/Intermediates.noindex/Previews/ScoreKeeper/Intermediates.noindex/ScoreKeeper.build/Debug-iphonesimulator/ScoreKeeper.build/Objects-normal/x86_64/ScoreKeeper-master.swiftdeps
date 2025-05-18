@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
+options: "7ca99ed2ba6c2b966e656b3e8040b30e3415aea3854bccaf7774e4656830917e"
+build_start_time: [1747606367, 865566968]
+build_end_time: [1747606369, 148097038]
+inputs:
+  "/Users/m_juchiewicz/Desktop/studia/projekty/swift_tutorial/ScoreKeeper/ScoreKeeper/ContentView.swift": [1747606367, 497432470]
+  "/Users/m_juchiewicz/Desktop/studia/projekty/swift_tutorial/ScoreKeeper/ScoreKeeper/Player.swift": [1747606121, 413970947]
+  "/Users/m_juchiewicz/Desktop/studia/projekty/swift_tutorial/ScoreKeeper/ScoreKeeper/ScoreKeeperApp.swift": [1747605100, 967266559]

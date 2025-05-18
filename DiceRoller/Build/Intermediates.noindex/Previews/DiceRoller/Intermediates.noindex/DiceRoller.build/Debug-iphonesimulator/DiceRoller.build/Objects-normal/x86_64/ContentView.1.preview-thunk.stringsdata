@@ -1,0 +1,20 @@
+{
+  "source": "/Users/m_juchiewicz/Desktop/studia/projekty/swift_tutorial/DiceRoller/Build/Intermediates.noindex/Previews/DiceRoller/Intermediates.noindex/DiceRoller.build/Debug-iphonesimulator/DiceRoller.build/Objects-normal/x86_64/ContentView.1.preview-thunk.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Dice Roller"
+      },
+      {
+        "comment": "",
+        "key": "Remove Dice"
+      },
+      {
+        "comment": "",
+        "key": "Add Dice"
+      }
+    ]
+  },
+  "version": 1
+}

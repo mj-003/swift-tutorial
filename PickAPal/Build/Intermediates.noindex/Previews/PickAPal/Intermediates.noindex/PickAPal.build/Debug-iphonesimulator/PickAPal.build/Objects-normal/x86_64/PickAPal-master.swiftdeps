@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
+options: "3cbb6347a30f9860c70dbede4d458feeb016b800ee8d9b573341bd64b92a8d65"
+build_start_time: [1747587676, 339046955]
+build_end_time: [1747587677, 922960042]
+inputs:
+  "/Users/m_juchiewicz/Desktop/studia/projekty/swift_tutorial/PickAPal/PickAPal/ContentView.swift": [1747585191, 749612092]
+  "/Users/m_juchiewicz/Desktop/studia/projekty/swift_tutorial/PickAPal/PickAPal/EnterAddress.swift": [1747587675, 682250499]
+  "/Users/m_juchiewicz/Desktop/studia/projekty/swift_tutorial/PickAPal/PickAPal/PickAPalApp.swift": [1747583077, 87912797]
