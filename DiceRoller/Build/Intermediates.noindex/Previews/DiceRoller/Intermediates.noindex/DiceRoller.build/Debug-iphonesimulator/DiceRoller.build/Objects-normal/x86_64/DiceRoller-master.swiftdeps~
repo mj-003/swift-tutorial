@@ -1,7 +1,0 @@
-version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
-options: "ce8a6f70ce6bd2f5d9bf6d7ac5c040fb043b0eb73012c85089b945bf70f0a6d4"
-build_start_time: [1747564157, 323788166]
-build_end_time: [1747564157, 377879142]
-inputs:
-  "/Users/m_juchiewicz/Desktop/studia/projekty/swift_tutorial/DiceRoller/DiceRoller/ContentView.swift": !private [1747564141, 297418594]
-  "/Users/m_juchiewicz/Desktop/studia/projekty/swift_tutorial/DiceRoller/DiceRoller/DiceRollerApp.swift": !private [1747564141, 293460369]

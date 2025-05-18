@@ -1,7 +1,0 @@
-version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
-options: "3cbb6347a30f9860c70dbede4d458feeb016b800ee8d9b573341bd64b92a8d65"
-build_start_time: [1747583092, 646192073]
-build_end_time: [1747583092, 699403047]
-inputs:
-  "/Users/m_juchiewicz/Desktop/studia/projekty/swift_tutorial/PickAPal/PickAPal/ContentView.swift": !private [1747583077, 95203876]
-  "/Users/m_juchiewicz/Desktop/studia/projekty/swift_tutorial/PickAPal/PickAPal/PickAPalApp.swift": !private [1747583077, 87912797]

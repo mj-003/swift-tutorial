@@ -1,2 +1,0 @@
-Target dependency graph (1 target)
-simple_chat in simple_chat, no dependencies

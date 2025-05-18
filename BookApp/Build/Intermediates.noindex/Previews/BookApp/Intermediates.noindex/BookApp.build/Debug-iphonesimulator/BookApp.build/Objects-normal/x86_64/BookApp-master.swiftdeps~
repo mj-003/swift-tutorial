@@ -1,7 +1,0 @@
-version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
-options: "845be6bde310eccce1416bad88292cbc2bf91a50c2477683434a539f82117be0"
-build_start_time: [1747561615, 636660099]
-build_end_time: [1747561615, 712203979]
-inputs:
-  "/Users/m_juchiewicz/Desktop/studia/projekty/swift_tutorial/BookApp/BookApp/BookAppApp.swift": !private [1747561608, 378297805]
-  "/Users/m_juchiewicz/Desktop/studia/projekty/swift_tutorial/BookApp/BookApp/ContentView.swift": !private [1747561608, 382548332]

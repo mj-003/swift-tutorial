@@ -1,7 +1,0 @@
-version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
-options: "cc2c58e09562bcbd796578687ddab88336e2a583c094f01ade65547ff94c2fed"
-build_start_time: [1747557762, 454457998]
-build_end_time: [1747557762, 511423110]
-inputs:
-  "/Users/m_juchiewicz/Desktop/studia/projekty/swift_tutorial/WelcomeApp/WelcomeApp/ContentView.swift": !private [1747557751, 38097381]
-  "/Users/m_juchiewicz/Desktop/studia/projekty/swift_tutorial/WelcomeApp/WelcomeApp/WelcomeAppApp.swift": !private [1747557751, 32399415]

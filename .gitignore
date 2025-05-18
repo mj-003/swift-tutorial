@@ -1,0 +1,3 @@
+# Ignore all Build folders in the repo
+**/Build/
+
