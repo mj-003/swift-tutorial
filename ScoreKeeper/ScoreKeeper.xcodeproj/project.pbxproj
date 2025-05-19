@@ -12,7 +12,21 @@
 		5E1B4F522DDA8DEF0084CA53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E1B4F512DDA8DEF0084CA53 /* Assets.xcassets */; };
 		5E1B4F552DDA8DEF0084CA53 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E1B4F542DDA8DEF0084CA53 /* Preview Assets.xcassets */; };
 		5E1B4F5C2DDA91140084CA53 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1B4F5B2DDA91140084CA53 /* Player.swift */; };
+		5EA07B732DDBC67000A62959 /* ScoreBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA07B722DDBC67000A62959 /* ScoreBoard.swift */; };
+		5EA07B752DDBC7CA00A62959 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA07B742DDBC7CA00A62959 /* GameState.swift */; };
+		5EA07B7D2DDBCAD000A62959 /* ScoreKeeperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA07B7C2DDBCAD000A62959 /* ScoreKeeperTests.swift */; };
+		5EA07B862DDBCF7800A62959 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA07B852DDBCF7800A62959 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5EA07B7E2DDBCAD000A62959 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E1B4F422DDA8DEC0084CA53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E1B4F492DDA8DEC0084CA53;
+			remoteInfo = ScoreKeeper;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		5E1B4F4A2DDA8DEC0084CA53 /* ScoreKeeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScoreKeeper.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -21,10 +35,22 @@
 		5E1B4F512DDA8DEF0084CA53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E1B4F542DDA8DEF0084CA53 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5E1B4F5B2DDA91140084CA53 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		5EA07B722DDBC67000A62959 /* ScoreBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreBoard.swift; sourceTree = "<group>"; };
+		5EA07B742DDBC7CA00A62959 /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
+		5EA07B7A2DDBCAD000A62959 /* ScoreKeeperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScoreKeeperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EA07B7C2DDBCAD000A62959 /* ScoreKeeperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreKeeperTests.swift; sourceTree = "<group>"; };
+		5EA07B852DDBCF7800A62959 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		5E1B4F472DDA8DEC0084CA53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EA07B772DDBCAD000A62959 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,6 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				5E1B4F4C2DDA8DEC0084CA53 /* ScoreKeeper */,
+				5EA07B7B2DDBCAD000A62959 /* ScoreKeeperTests */,
 				5E1B4F4B2DDA8DEC0084CA53 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				5E1B4F4A2DDA8DEC0084CA53 /* ScoreKeeper.app */,
+				5EA07B7A2DDBCAD000A62959 /* ScoreKeeperTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,10 +82,13 @@
 			isa = PBXGroup;
 			children = (
 				5E1B4F4D2DDA8DEC0084CA53 /* ScoreKeeperApp.swift */,
+				5E1B4F5B2DDA91140084CA53 /* Player.swift */,
 				5E1B4F4F2DDA8DEC0084CA53 /* ContentView.swift */,
 				5E1B4F512DDA8DEF0084CA53 /* Assets.xcassets */,
 				5E1B4F532DDA8DEF0084CA53 /* Preview Content */,
-				5E1B4F5B2DDA91140084CA53 /* Player.swift */,
+				5EA07B722DDBC67000A62959 /* ScoreBoard.swift */,
+				5EA07B742DDBC7CA00A62959 /* GameState.swift */,
+				5EA07B852DDBCF7800A62959 /* SettingsView.swift */,
 			);
 			path = ScoreKeeper;
 			sourceTree = "<group>";
@@ -68,6 +99,14 @@
 				5E1B4F542DDA8DEF0084CA53 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5EA07B7B2DDBCAD000A62959 /* ScoreKeeperTests */ = {
+			isa = PBXGroup;
+			children = (
+				5EA07B7C2DDBCAD000A62959 /* ScoreKeeperTests.swift */,
+			);
+			path = ScoreKeeperTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -90,6 +129,24 @@
 			productReference = 5E1B4F4A2DDA8DEC0084CA53 /* ScoreKeeper.app */;
 			productType = "com.apple.product-type.application";
 		};
+		5EA07B792DDBCAD000A62959 /* ScoreKeeperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EA07B802DDBCAD000A62959 /* Build configuration list for PBXNativeTarget "ScoreKeeperTests" */;
+			buildPhases = (
+				5EA07B762DDBCAD000A62959 /* Sources */,
+				5EA07B772DDBCAD000A62959 /* Frameworks */,
+				5EA07B782DDBCAD000A62959 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EA07B7F2DDBCAD000A62959 /* PBXTargetDependency */,
+			);
+			name = ScoreKeeperTests;
+			productName = ScoreKeeperTests;
+			productReference = 5EA07B7A2DDBCAD000A62959 /* ScoreKeeperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -102,6 +159,10 @@
 				TargetAttributes = {
 					5E1B4F492DDA8DEC0084CA53 = {
 						CreatedOnToolsVersion = 14.2;
+					};
+					5EA07B792DDBCAD000A62959 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 5E1B4F492DDA8DEC0084CA53;
 					};
 				};
 			};
@@ -119,6 +180,7 @@
 			projectRoot = "";
 			targets = (
 				5E1B4F492DDA8DEC0084CA53 /* ScoreKeeper */,
+				5EA07B792DDBCAD000A62959 /* ScoreKeeperTests */,
 			);
 		};
 /* End PBXProject section */
@@ -133,6 +195,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5EA07B782DDBCAD000A62959 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -142,11 +211,30 @@
 			files = (
 				5E1B4F502DDA8DEC0084CA53 /* ContentView.swift in Sources */,
 				5E1B4F5C2DDA91140084CA53 /* Player.swift in Sources */,
+				5EA07B752DDBC7CA00A62959 /* GameState.swift in Sources */,
+				5EA07B862DDBCF7800A62959 /* SettingsView.swift in Sources */,
 				5E1B4F4E2DDA8DEC0084CA53 /* ScoreKeeperApp.swift in Sources */,
+				5EA07B732DDBC67000A62959 /* ScoreBoard.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EA07B762DDBCAD000A62959 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EA07B7D2DDBCAD000A62959 /* ScoreKeeperTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5EA07B7F2DDBCAD000A62959 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E1B4F492DDA8DEC0084CA53 /* ScoreKeeper */;
+			targetProxy = 5EA07B7E2DDBCAD000A62959 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		5E1B4F562DDA8DEF0084CA53 /* Debug */ = {
@@ -319,6 +407,40 @@
 			};
 			name = Release;
 		};
+		5EA07B812DDBCAD000A62959 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cpp.ScoreKeeperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScoreKeeper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ScoreKeeper";
+			};
+			name = Debug;
+		};
+		5EA07B822DDBCAD000A62959 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cpp.ScoreKeeperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScoreKeeper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ScoreKeeper";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -336,6 +458,15 @@
 			buildConfigurations = (
 				5E1B4F592DDA8DEF0084CA53 /* Debug */,
 				5E1B4F5A2DDA8DEF0084CA53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EA07B802DDBCAD000A62959 /* Build configuration list for PBXNativeTarget "ScoreKeeperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EA07B812DDBCAD000A62959 /* Debug */,
+				5EA07B822DDBCAD000A62959 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -8,11 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var players: [Player] = [
-        Player(name: "Elisha", score: 0),
-        Player(name: "Andre", score: 0),
-        Player(name: "Jasmine", score: 0),
-    ]
+    @State private var scoreboard = Scoreboard()
+    @State private var startingPoints = 0
     
     var body: some View {
         VStack(alignment: .leading) {
@@ -21,16 +18,27 @@ struct ContentView: View {
                 .bold()
                 .padding(.bottom)
             
+            SettingsView(doesHighestScoreWin: $scoreboard.doesHighestScoreWin, startingPoints: $startingPoints)
+                .disabled(scoreboard.state != .setup)
+            
             Grid {
                 GridRow {
                     Text("Name")
                         .gridColumnAlignment(.leading)
                     Text("Score")
+                        .opacity(scoreboard.state == .setup ? 0 : 1)
                 }
                 .font(.headline)
-                ForEach($players) { $player in
+                
+                ForEach($scoreboard.players) { $player in
                     GridRow {
-                        TextField("Name", text: $player.name)
+                        HStack {
+                            if scoreboard.winners.contains(player) {
+                                Image(systemName: "crown.fill")
+                                    .foregroundStyle(Color.yellow)
+                            }
+                            TextField("Name", text: $player.name)
+                        }
                         Text("\(player.score)")
                         Stepper("\(player.score)", value: $player.score)
                             .labelsHidden()
@@ -40,11 +48,47 @@ struct ContentView: View {
             .padding(.vertical)
             
             Button {
-                players.append(Player(name: "", score: 0))
-            } label: {
-                Label("Add name", systemImage: "plus")
+                scoreboard.players.append(Player(name: "", score: 0))
             }
+        
+            label: {
+                Label("Add name", systemImage: "plus")
+            }            .opacity(scoreboard.state == .setup ? 1 : 0)
+                .opacity(scoreboard.state == .setup ? 1 : 0)
+
             Spacer()
+            
+            HStack {
+                Spacer()
+                switch scoreboard.state {
+                case .setup:
+                    Button {
+                        scoreboard.state = .playing
+                        scoreboard.resetScores(to: startingPoints)
+                    } label: {
+                        Label("Start Game", systemImage: "play.fill")
+                    }
+                    
+                case .playing:
+                    Button {
+                        scoreboard.state = .gameOver
+                    } label: {
+                        Label("End Game", systemImage: "stop.fill")
+                    }
+                    
+                case .gameOver:
+                    Button {
+                        scoreboard.state = .setup
+                    } label: {
+                        Label("Reset Game", systemImage: "arrow.counterclockwise")
+                    }
+                }
+                Spacer()
+            }
+            .buttonStyle(.bordered)
+            .buttonBorderShape(.capsule)
+            .controlSize(.large)
+            .tint(.blue)
         }
         .padding()
     }
